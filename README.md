@@ -3,6 +3,8 @@
 A light-weight python module, that generate suggested topics for a given topic from the sources 
 like google, bing.
 
+Have plans to add suggestions based on NLP .
+
 ```python
 
 from topic_suggestor import get_suggestions
