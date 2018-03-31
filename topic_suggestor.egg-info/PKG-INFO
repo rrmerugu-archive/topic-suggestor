@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: topic-suggestor
+Version: 0.0.1
+Summary: A light-weight python module, that generate suggested topics for a given topic from the sources like google, bing. 
+Home-page: https://github.com/rrmerugu/topic-suggestor
+Author: rrmerugu
+Author-email: rrmerugu@gmail.com
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN

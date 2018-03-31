@@ -5,6 +5,16 @@ like google, bing.
 
 Have plans to add suggestions based on NLP .
 
+## Install
+
+```bash
+
+pip install topic-suggestor
+```
+
+
+## Usage
+
 ```python
 
 from topic_suggestor import get_suggestions
