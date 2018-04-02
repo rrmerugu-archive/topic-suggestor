@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='topic-suggestor',
-    version='0.0.1',
+    version='0.0.2',
     packages=['topic_suggestor'],
     url='https://github.com/rrmerugu/topic-suggestor',
     license='MIT License',
