@@ -1,4 +1,4 @@
 from topic_suggestor import get_suggestions
 
-result = get_suggestions(topic="molecular modelling", sources=['google', 'bing'])
-print (result)
+result = get_suggestions(topic="molecule", sources=['google', 'bing', 'thesaurus'])
+print(result)

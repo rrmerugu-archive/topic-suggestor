@@ -19,10 +19,9 @@ pip install topic-suggestor
 
 from topic_suggestor import get_suggestions
 
-result = get_suggestions(topic="molecular modelling", sources=['google', 'bing'])
-print (result)
-
-#{'topic': 'molecular modelling', 'suggested_topics': {'google': [], 'bing': ['molecular modelling pdf', 'molecular modelling ppt', 'molecular modelling book', 'molecular modelling wikipedia', 'molecular modelling tools', 'molecular modelling slideshare', 'molecular modelling journal']}}
+result = get_suggestions(topic="molecule", sources=['google', 'bing', 'thesaurus'])
+print(result)
+#{'topic': 'molecule', 'suggested_topics': {'google': ['molecules', 'molecule definition', 'molecule air bar', 'molecules meaning', 'molecules meaning in hindi', 'molecules of emotion', 'molecule man', 'molecule examples', 'molecule definition chemistry', 'molecules journal'], 'bing': ['molecules', 'molecules youtube', 'molecules india', 'molecule facebook', 'molecule search', 'molecules pdf', 'molecules in hindi', 'molecules meaning'], 'thesaurus': ['fragment', 'particle', 'jot', 'speck', 'minim', 'mote', 'modicum', 'bit', 'mite', 'iota', 'unit', 'ray', 'ounce']}}
 
 
 ```
