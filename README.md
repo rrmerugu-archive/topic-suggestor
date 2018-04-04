@@ -1,7 +1,7 @@
 # Topic suggestor
 
 A light-weight python module, that generate suggested topics for a given topic from the sources 
-like google, bing.
+like google, bing and thesaurus.
 
 Have plans to add suggestions based on NLP .
 
